@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.div{
+				width: 200px;height: 200px;background: deeppink;
+			}
+			.mei{
+				background: red;width: 100px;height: 100px;
+			}
+		</style>
+		<script>
+			window.onload = function(){
+				var oBox = document.querySelector("div");
+				oBox.onclick = function(){
+					this.classList.toggle("mei")
+//                  alert(1)
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div class="div">
+			
+		</div>
+	</body>
+</html>
